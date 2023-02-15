@@ -52,5 +52,5 @@ I'm so done with this challange. but I learn new css properties and realized tha
 
 ## Acknowledgments
 
-- [Helpful Comment from @adonmez04](https://www.frontendmentor.io/solutions/fem3statspreviewcardcomponentv21-the-mobile-first-solution-xI-gTwSLwB#comment-63e9d13931518486b3e3747a) - Thanks to him, he helped me to reverse the layout with css property I didnt know
+- [Helpful Comment from @adonmez04](https://www.frontendmentor.io/solutions/fem3statspreviewcardcomponentv21-the-mobile-first-solution-xI-gTwSLwB#comment-63e9d4e531518486b3e38eb8) - Thanks to him, he helped me to reverse the layout with css property I didnt know
 
