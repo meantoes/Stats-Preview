@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+}
+
+    body {
+        margin: 0;
+        display: grid;
+        place-content: center;
+        height: 100vh;
+        background-color: hsl(233, 47%, 7%);
+        position: relative;
+    }
+
+main {
+    display: grid;
+    grid-template-columns: 21rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    max-width: 21rem;
+    background-color: hsl(244, 38%, 16%);
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.texts {
+    padding: 2rem 2rem;
+}
+
+picture, .image {
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    display: block;
+    position: relative;
+}
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 29px;
+}
+
+h1 span {
+    color: hsl(277, 64%, 61%);
+}
+
+.paragraph {
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 1.5rem;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    margin-top: 1rem;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    font-family: 'Inter', sans-serif;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.datas {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.datas span {
+    font-family: 'Lexend Deca', sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.6);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: hsl(277, 64%, 61%);
+    opacity: 0.5;
+    z-index: 1;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+footer {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    font-size: 1rem;
+    white-space: nowrap;
+
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    color: white;
+    font-weight: 500;
+    word-spacing: 0.3rem;
+    letter-spacing: 0.2rem;
+    opacity: 0;
+}
+
+footer a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    letter-spacing: normal;
+    margin: 0.8rem;
+    transition: all 0.15s;
+}
+
+footer a:hover {
+    padding: 0.5rem 0.8rem;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    margin: 0;
+}

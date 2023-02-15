@@ -1,0 +1,45 @@
+@media all and (min-width: 1000px) {
+    main {
+        display: grid;
+        grid-template-columns: 400px 450px;
+        column-gap: 5rem;
+        background-color: hsl(244, 38%, 16%);
+        color: white;
+        border-radius: 10px;
+    }
+
+    .card {
+        max-width: none;
+        text-align: left;
+        border-radius: 10px;
+    }
+    
+    .image, picture {
+        order: 1;
+        border-radius: 0;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    
+    .texts {
+        padding: 0;
+        padding-left: 3rem;
+    }
+    
+    .data {
+        margin-top: 4rem;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .overlay {
+        border-radius: 0;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    footer {
+        opacity: 1;
+    }
+}
+
